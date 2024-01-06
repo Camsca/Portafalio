@@ -1,22 +1,19 @@
-import { useState } from 'react'
 import './App.css'
-import Header from './components/Header'
-import Navigation from "./components/Navigation"
-import Project from './components/Project'
+import { Outlet } from 'react-router-dom';
+import Navigation from './components/Navigation';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-    <Header/>
-    <Navigation/>
-    <Project/>
-
-   
+  <Navigation/>
+  <main className="mx-3">
+        <Outlet />
+      </main>
     </>
   )
 }
