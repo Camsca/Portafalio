@@ -11,7 +11,7 @@ function App() {
   return (
     <>
   <Navigation/>
-  <main className="mx-3">
+  <main >
         <Outlet />
       </main>
     </>
