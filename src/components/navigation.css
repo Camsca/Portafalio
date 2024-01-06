@@ -1,6 +1,16 @@
 .me-avatar {
     border-radius: 50%;
 }
-.container {
- background-color: #A6AA19;
+.navbar.bg-body-tertiary {
+    background-color: #915F78 !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+
 }
+
+.brand  {
+    font-size: 60px;
+    font-style:Sans-serif;
+   color: azure !important;
+  }
+  

@@ -5,12 +5,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import './navigation.css';
 import logoImage from '../assets/me.jpg'; 
 
+
 const Navigation = () => {
     return (
         <div>
             <Navbar expand="lg" className="bg-body-tertiary mb-3">
-                <Container fluid>
-                    <Navbar.Brand href="#home">
+                <Container fluid >
+                    <Navbar.Brand href="#home" className="brand">
                         <img src={logoImage} alt="Logo" width="30" height="30"   className="me-avatar" /> Camila Carrasco
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarNav" />
