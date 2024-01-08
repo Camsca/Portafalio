@@ -16,11 +16,11 @@ const Navigation = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarNav" />
                     <Navbar.Collapse id="navbarNav">
-                        <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Link to="/About">About Me</Link>
-                            <Link to="/Portfolio">Portfolio</Link>
-                            <Link to="/Resume">Resume</Link>
-                            <Link to="/Contact">Contact</Link>
+                        <Nav className=" justify-content-end  flex-grow-1 pe-3">
+                            <Link to="/About"className="nav-link text-center">About Me</Link>
+                            <Link to="/Portfolio"className="nav-link text-center">Portfolio</Link>
+                            <Link to="/Resume"className="nav-link text-center">Resume</Link>
+                            <Link to="/Contact"className="nav-link text-center">Contact</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

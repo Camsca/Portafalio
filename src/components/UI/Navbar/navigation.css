@@ -1,8 +1,9 @@
+/* Navigation.css */
 .me-avatar {
   border-radius: 50%;
 }
 .navbar.bg-body-tertiary {
-  background-color: #161925 !important;
+  background-color: #161925!important;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
 }
@@ -11,4 +12,15 @@
  
   font-style:Sans-serif;
  color: azure !important;
+}
+
+.nav-link {
+color:  azure!important; 
+  text-decoration: none; 
+
+}
+
+.nav-link:hover {
+  color: #afdd00 !important; 
+  
 }
