@@ -7,38 +7,23 @@ function Contact() {
   return (
  
     <Form>
-         <br />
-      <Row>
-        <Form.Label column lg={2}>
-          Normal Text
-        </Form.Label>
-        <Col>
-          <Form.Control type="text" placeholder="Normal text" />
-        </Col>
-      </Row>
-      <br />
-
-      <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
-        <Form.Label column sm={2}>
-          Email
-        </Form.Label>
-        <Col sm={10}>
-          <Form.Control type="email" placeholder="Email" />
-        </Col>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Name</Form.Label>
+        <Form.Control as="textarea" rows={1} />
+      </Form.Group>
+     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Message</Form.Label>
+        <Form.Control as="textarea" rows={5} />
       </Form.Group>
 
-     <Row>
-        <Form.Label column="lg" lg={2}>
-          Large Text
-        </Form.Label>
-        <Col>
-          <Form.Control size="lg" type="text" placeholder="Large text" />
-        </Col>
-      </Row>
 
       <Form.Group as={Row} className="mb-3">
         <Col sm={{ span: 10, offset: 2 }}>
-          <Button type="submit">Sign in</Button>
+          <Button type="submit">Submit</Button>
         </Col>
       </Form.Group>
     </Form>
