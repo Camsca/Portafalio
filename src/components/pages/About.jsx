@@ -2,9 +2,11 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
 function About() {
     return (
         <Card className="bg-dark text-white">
+           
             <Card.Body>
                 <Row>
                     <Col xs={6}> {/* Establece el ancho de la columna para la imagen */}

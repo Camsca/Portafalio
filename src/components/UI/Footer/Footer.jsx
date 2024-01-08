@@ -5,7 +5,7 @@ import './footerStyles.css';
 
 function Footer() {
   return (
-    <Card>
+    <Card className="footer mt-auto">
       <Card.Footer className="text-muted d-flex justify-content-center footerStyles">
         {/* Links to GitHub and Twitter */}
         <a href="https://github.com/Camsca/" className="mx-3">
