@@ -57,21 +57,27 @@ function Portafolio() {
                     variant="top"
                     src={project.gif} 
                     style={{
+                      
+                        
                       filter: hovered === project.id ? 'blur(4px)' : 'none',
-                      transition: 'filter 0.3s ease-in-out',
-                      opacity: hovered === project.id ? 0.8 : 1,
-                      transition: 'opacity 0.3s ease-in-out'
-                    }}
+                      transition: 'filter 0.3s ease-in-out, opacity 0.3s ease-in-out',
+                      opacity: hovered === project.id ? 0.8 : 1
+                    
+                
+                  }}
                   />
                 ) : (
                   <Card.Img
                     variant="top"
                     src={project.image} 
                     style={{
-                      filter: hovered === project.id ? 'blur(4px)' : 'none',
-                      transition: 'filter 0.3s ease-in-out',
-                      opacity: hovered === project.id ? 0.8 : 1,
-                      transition: 'opacity 0.3s ease-in-out'
+                      
+                        
+                        filter: hovered === project.id ? 'blur(4px)' : 'none',
+                        transition: 'filter 0.3s ease-in-out, opacity 0.3s ease-in-out',
+                        opacity: hovered === project.id ? 0.8 : 1
+                      
+                  
                     }}
                   />
                 )}
