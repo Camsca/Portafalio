@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 function Contact() {
   return (
  
-    <Form>
+    <Form className='bg-dark ' >
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
         <Form.Label>Name</Form.Label>
         <Form.Control as="textarea" rows={1} />

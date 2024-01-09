@@ -37,7 +37,7 @@ function Portafolio() {
 
   ];
   return(
-      <Row xs={1} md={2} lg={4} className="g-4">
+      <Row xs={1} md={2} lg={4} className="g-4 bg-dark ">
             {/* Mapping through portfolioData array to display each project */}
         {portfolioData.map((project) => (
           <Col key={project.id}>

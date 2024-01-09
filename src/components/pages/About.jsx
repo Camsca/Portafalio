@@ -9,10 +9,10 @@ function About() {
            
             <Card.Body>
                 <Row>
-                    <Col xs={6}> {/* Establece el ancho de la columna para la imagen */}
+                <Col xl={2}> {/* Ancho de la columna para el texto */}
                         <Card.Img src="holder.js/100px270" alt="Card image" />
                     </Col>
-                    <Col xs={6}> {/* Establece el ancho de la columna para el texto */}
+                    <Col xl={8}> {/* Ancho de la columna para el texto */}
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
